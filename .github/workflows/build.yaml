@@ -60,5 +60,5 @@ jobs:
           platforms: linux/arm64,linux/amd64
           file: "Dockerfile"
           build-args: |
-            KEA_DHCP_DDNS_VERSION=${{ env.KEA_DHCP_DDNS_VERSION }}
+            KEA_CTRL_AGENT_VERSION=${{ env.KEA_CTRL_AGENT_VERSION }}
             ALPINE_VERSION=${{ env.ALPINE_VERSION }}
